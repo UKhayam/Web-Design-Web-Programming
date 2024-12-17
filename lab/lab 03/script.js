@@ -1,36 +1,21 @@
 
-function handleClick(){
-    alert("Button Clicked...!")
-}
+// function handleSubmit(){
+//    let number =  document.getElementById("number").value;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// function handleClick(){
-//     let number = document.getElementById("number").value;
-    
-    
-//    if(number === ""){
+//    if (number === ""){
 //     alert("Please Enter a Number...!");
-//    }
-//    else{
+//    }else{
 //     if(number % 2 === 0){
-//         alert("The Number is Even");
+//         alert("It's Even");
 //     }
 //     else{
-//         alert("The Number is ODD");
+//         alert("It's Odd");
 //     }
 //    }
 // }
+
+let i = 10;
+while (i > 5){
+    console.log("i");
+    i--;
+}
